@@ -1,0 +1,17 @@
+//Reversing array (Mehtod 2)
+import java.util.*;
+
+// Driver Code
+class Main {
+    public static void main(String[] args) {
+        // Input array
+        Integer[] array = {1, 2, 3, 4, 5};
+        System.out.println("Input Array :" + Arrays.toString(array));
+
+        // Reversing the array using Collections.reverse() method.
+        Collections.reverse(Arrays.asList(array));
+
+        // Output
+        System.out.println("Reversed Array :" + Arrays.toString(array));
+    }
+}
