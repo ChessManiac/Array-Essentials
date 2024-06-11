@@ -1,0 +1,13 @@
+//for-eaach demonstration (String values)
+
+public class Main{
+  public static void main (String [] args){
+
+  String [] names = {"Subaru", "Rem", "Ram"};
+
+  for (String name: names)
+    System.out.print(name + " ");
+
+  
+  }
+}
