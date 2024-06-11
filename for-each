@@ -1,0 +1,22 @@
+//for-each demonstration 
+import java.util.*;
+public class main8
+  public static void main (String [] args){
+  
+for (dataType item: array){
+}
+
+
+int [] num = {1,2,3,4,5};
+
+for(int number: num){
+System.out.print(number + " ");
+
+/* Equivalent
+for (int i = 0; i < numbers.length; i++){
+  System.out.print(num[i] + " ")
+  }
+  */
+
+ }
+}
