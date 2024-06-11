@@ -1,0 +1,32 @@
+//Delete unecessary commas and include "and" after the second-to-last element of the array.
+import java.util.*;
+public class Main8{
+
+public static void main (String[] args) {
+	
+	 
+
+	String [] names = {"Subaru,", "Rem,", "Ram,",};
+	
+	for (int i = 0; i < names.length; i ++) {
+		if(names[i].contains(",")) {
+			names[i] = names[i].replace(",", "");
+			if(i == 2) {
+				String text = "and ";
+				names[i] = text + names[i];
+			}
+		}
+	}
+		
+			
+		
+
+	
+	System.out.println(Arrays.toString(names));
+	
+	
+	
+	
+	
+	}
+}
