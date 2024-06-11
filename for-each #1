@@ -1,6 +1,6 @@
 //for-each demonstration (int values)
 import java.util.*;
-public class Main8
+public class Main8 {
   public static void main (String [] args){
   
 for (dataType item: array){
