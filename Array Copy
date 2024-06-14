@@ -1,0 +1,15 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main8 {
+	public static void main (String [] args) {
+		
+		
+		int [] temp = {1,2,3,44};
+		int [] temp1 = {2,2,3,4,5};
+		
+		System.arraycopy(temp, 0, temp1, 0, temp.length);
+		
+		System.out.println(Arrays.toString(temp1));
+}
+}
