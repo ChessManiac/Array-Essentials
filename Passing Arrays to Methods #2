@@ -13,4 +13,4 @@ int[] y = new int[10]; // y represents an array of int values
  }
 
 
-//The first element in the y array gets changed throughout the m method. This does not, however, happen to primitive data types. (Reference semantic vs. Value semantic).
+//The first element in the y array gets changed throughout the m method. This does not, however, happen to primitive data type values. (Reference semantic vs. Value semantic).
